@@ -1,38 +1,54 @@
+body{
+background-color: black;
+}
+
 .circle{
-width: 800px;
-height: 800px;
-border-radius: 100%;
-position: relative;
-background-color: rgb(215, 0, 248);
-}
-.txt{
-    flex-direction: column;
-    text-align: right;
-    justify-content: flex-end;
-    color: rgb(113, 59, 24);
-}
-img{
-    height: 300px;
-    width: 300px;
-}
-.menu{
-    width: 600px;
-    height: 200px;
-    background-color: red;
-}
-.r{
-    text-align: right;
-    margin: 150px;
-}
-.link{
-    flex-direction: row-reverse;
-}
-.flex{
-    display: flex;
-}
-.pupu{
-    flex-direction: column-reverse;
-    text-align: right;
-    width: 300px;
-    height: 300px;
-    background-color: rgb(150, 255, 166);
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    position: relative;
+    background-color: rgb(215, 0, 248);
+    }
+    .txt{
+        flex-direction: column;
+        text-align: right;
+        justify-content: flex-end;
+        color: rgb(113, 59, 24);
+        font-size: 2px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+    }
+    .menu{
+        width: 600px;
+        height: 200px;
+        background-color: red;
+    }
+    .r{
+        text-align: right;
+        margin: 150px;
+    }
+    .link{
+        flex-direction: row-reverse;
+    }
+    .flex{
+        display: flex;
+    }
+    .pupu{
+        flex-direction: column-reverse;
+        text-align: right;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(150, 255, 166);
+    }
+    div{
+        color: rgb(28, 0, 0);
+    }
+    a{
+        color: rgb(208, 255, 0);
+        font-size: 100px;
+        width: 2000px;
+        height: 2000px;
+        border-width: 1000px;
+    }
